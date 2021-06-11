@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">MonProjetAndroid</string>
+    <!--Les resources dans l'entête !-->
+    <string name="admin_entete">Administration UVS</string>
+    <string name="txt_gestion">Gestion des tuteur</string>
+    <string name="slogan_uvs">Fo Nekk fofu la</string>
+    <string name="uvs">Université Virtuelle du Sénégal</string>
+
+    <!-- Partie connexion-->
+    <string name="txt_header">Gestion Des Tuteur</string>
+    <string name="text_connnect">Se connecter</string>
+    <string name="text_login">Nom d\'utilisateur</string>
+    <string name="text_mdp">Mot de passe</string>
+    <string name="btn_envoi">Envoyer</string>
+
+    <!-- Partie Administration -->
+    <string name="hello_admin">Bonjour Mr</string>
+    <string name="page_admin">Bienvenue sur la page d\'administration</string>
+    <string name="desc_list">Liste des tuteurs</string>
+    <string name="ajout_tuteur">Ajouter un tuteur</string>
+    <string name="affiche_tuteur">Afficher</string>
+    <string name="modify_tuteur">Modifier</string>
+    <string name="suppr_tuteur">Supprimer</string>
+    <string name="saisi_data">Remplir les informations du tuteur</string>
+    <string name="btnSubmit">Enregistrer</string>
+
+    <!-- formulaire pour ajouter des membres -->
+    <string name="txt_nom">Nom</string>
+    <string name="txt_prenom">Prenom</string>
+    <string name="txt_email">Email</string>
+    <string name="txt_filiere">filière</string>
+</resources>

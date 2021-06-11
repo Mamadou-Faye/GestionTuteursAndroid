@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffcccccc"
+        android:orientation="vertical">
+        
+        <ImageView
+            android:layout_width="285dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"
+            android:src="@drawable/logo_uvs"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/uvs"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="280dp"
+            android:layout_height="match_parent"
+            android:isScrollContainer="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="80dp"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:background="@color/colorWhite">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/admin_entete"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:textSize="20dp"
+                android:textColor="@color/colorBLue"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_gestion"
+                android:layout_gravity="center"
+                android:layout_marginTop="7dp"
+                android:textSize="20dp"
+                android:textColor="@color/colorBLue"/>
+
+            <Button
+                android:id="@+id/btnAjouter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/ajout_tuteur"
+                android:layout_gravity="center"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnAfficher"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/affiche_tuteur"
+                    android:layout_marginTop="20dp"/>
+
+                <Button
+                    android:id="@+id/btnModify"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/modify_tuteur"
+                    android:layout_marginTop="20dp"/>
+
+                <Button
+                    android:id="@+id/btnSupprimer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/suppr_tuteur"
+                    android:layout_marginTop="20dp"/>
+
+                <EditText
+                    android:id="@+id/editTextId"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="invisible"
+                    android:inputType="text"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="bottom"
+                android:layout_marginTop="140dp"
+                android:background="@color/colorBLue">
+
+                <Button
+                    android:id="@+id/btnCours"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_marginLeft="0.4dp"
+                    android:background="#20BAA6"
+                    android:text="Cours"/>
+
+                <Button
+                    android:id="@+id/btnchefFiliere"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="3dp"
+                    android:text="ChefFiliere"
+                    android:background="#20BAA6"/>
+
+                <Button
+                    android:id="@+id/btnCoursTuteur"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:text="coursTuteur"
+                    android:layout_marginLeft="3dp"
+                    android:background="#20BAA6"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        
+    </LinearLayout>
+    
+
+</androidx.constraintlayout.widget.ConstraintLayout>
